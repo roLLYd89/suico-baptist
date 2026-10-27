@@ -27,10 +27,11 @@ padding: 0;
  .heading {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    font-weight: 40px;
+    font-weight: 100px;
     color: white;
     width: 300px;
     text-align: center;
+    margin-bottom: 90px;
  }
 
  .sub {
@@ -39,3 +40,66 @@ padding: 0;
     margin-top: 20px;
     text-align: center;
  }
+
+ .verse {
+   font-size: 30px;
+   text-align: center;
+   width: 250px;
+   color:  #C3A16C;
+   margin-bottom: 35px;
+ }
+
+ .input-group {
+  position: relative;
+  width: 320px;
+  margin-bottom: 20px;
+    
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 45px 12px 45px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #C3A16C;
+  border-radius: 8px;
+  color: #C3A16C;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  
+}
+
+.input-group input::placeholder {
+  color: #a0aec0;
+  
+}
+
+.left-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #d4af37;
+  font-size: 18px;
+}
+
+.right-icon {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button {
+   width: 320px;
+   font-size: 16px;
+   font-weight: 50px;
+   border-radius: 20px;
+   background-color: #C3A16C;
+   padding: 12px 45px 12px 45px;
+   color: white;
+
+}
