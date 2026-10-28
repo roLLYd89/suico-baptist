@@ -3,18 +3,21 @@ margin: 0;
 padding: 0;
  } 
 
+ html,body {
+ background-color: #112540;
+
+ }
 .container {
   display: flex;
   width: 100%;
   min-height: 50vh;
   flex-direction: column;
-  background-color: #112540;
   align-items: center;
       
 
 }
  img {
-    width: 50px;
+    width: 100px;
     margin-top: 30px;
  }
 
@@ -101,5 +104,21 @@ button {
    background-color: #C3A16C;
    padding: 12px 45px 12px 45px;
    color: white;
+}
 
+.bot-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  gap: 150px;
+}
+
+.forgot {
+  color: white;
+  font-size: 17px;
+}
+
+.signup {
+  color:#C3A16C;
+  font-size: 17px;
 }
