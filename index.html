@@ -6,49 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mt. Moriah</title>    
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
 <div class="container">
-    
-    <div>
-        <img src="img/moriah.png" alt="Mt.Moriah logo">
-    </div>
+    <!-- LEFT PANEL (Blue) -->
+    <div class="left">
+        <img src="img/moriah.png" alt="Mt. Moriah logo">
         
-    <div class="texts">
-      <div class="heading">MT. MORIAH BAPTIST CHURCH</div>
+        <div class="texts">
+            <div class="heading">MT. MORIAH BAPTIST CHURCH</div>
+        </div>
+
+        <div class="verse">"Thy word is lamp unto my feet."</div>
     </div>
 
-    <div class="verse"> "Thy word is lamp unto my feet."</div>
-    <div class="caption"> MEMBERS PORTAL</div>
+    <!-- RIGHT PANEL (Navy Blue sa Desktop) -->
+    <div class="right">
+        <div class="caption">MEMBERS PORTAL</div>
 
-   <!-- Email Field -->
+        <!-- Email Field -->
         <div class="input-group">
             <i class="fa-regular fa-envelope left-icon"></i>
             <input type="email" placeholder="Email Address">
         </div>
 
-    <!-- Password Field -->
+        <!-- Password Field -->
         <div class="input-group">
             <i class="fa-solid fa-lock left-icon"></i>
             <input type="password" id="passwordInput" placeholder="Password">
             <i class="fa-regular fa-eye right-icon" id="togglePassword"></i>
         </div>
         
-    <button type="submit" id="loginBtn">Log In</button>
+        <button type="submit" id="loginBtn">Log In</button>
 
-    <div class="bot-links">
-        <div class="forgot"> Forgot password?</div>
-        <div class="signup"> Sign up</div>
+        <div class="bot-links">
+            <div class="forgot">Forgot password?</div>
+            <div class="signup">Sign up</div>
+        </div>
     </div>
-    
-
 </div>
 
-
-</div>
-
-
+</body>
 </html>
