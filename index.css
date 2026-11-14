@@ -156,18 +156,18 @@ button {
   }
 
   .left img {
-    width: 140px;
+    width: 300px;
   }
 
   .left .heading {
     width: 100%;
     max-width: 420px;
-    font-size: 32px;
+    font-size: 40px;
   }
 
   .left .verse {
     background: transparent;
-    font-size: 26px;
+    font-size:30px;
     max-width: 450px;
   }
 
@@ -177,4 +177,12 @@ button {
     height: 100dvh;
     padding: 2rem;
   }
+
+  .login-card {
+    background-color: #112540;
+    width: 100%;
+    max-width: 420px;
+    padding: 4.5rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 }
